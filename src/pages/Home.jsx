@@ -32,6 +32,7 @@ const MenuStyle = styled.div`
   box-shadow: 0px -8px 0px 4px #140e66 inset, 0px 6px 0px 8px #2463ff inset;
   position: relative;
   padding-top: 138px;
+  /* Responsive uchun stil */
   @media screen and (min-width: 760px) {
     margin: 0 auto;
     width: 592px;
@@ -45,6 +46,7 @@ const ImgStyle = styled.img`
   height: 115px;
   top: -60px;
   transition: all 300;
+  /* Responsive uchun stil */
   @media screen and (min-width: 760px) {
     top: -90px;
     width: 373px;
@@ -68,6 +70,7 @@ const ImgPlay = styled.button`
   border: none;
   margin-bottom: 57px;
   transition: all 300ms;
+  /* Tugma ustiga borganda o'zgarishi */
   &:hover {
     background: linear-gradient(
         0deg,
@@ -76,6 +79,7 @@ const ImgPlay = styled.button`
       ),
       linear-gradient(180deg, #fe71fe 16.42%, #7199ff 100%);
   }
+  /* Responsive uchun stil */
   @media screen and (min-width: 760px) {
     width: 200px;
     height: 200px;
@@ -95,6 +99,7 @@ const StartStyle = styled.button`
   box-shadow: 0px -2px 0px 3px #140e66 inset, 0px 1px 0px 6px #3c74ff inset;
   border: none;
   transition: all 300ms;
+  /* Tugma ustiga borganda o'zgarishi */
   &:hover {
     background: linear-gradient(
         0deg,
